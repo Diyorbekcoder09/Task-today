@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.task {
+    width: 600px;
+    height: 780px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+}
+
+.task_header {
+    width: 100%;
+    height: 210px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+
+.form_input {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.fa-x {
+    font-size: 22px;
+    color: red;
+    cursor: pointer;
+}
+
+.input {
+    width: 290px;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    border: none;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    height: 55px;
+    border: none;
+    background-color: chartreuse;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.body_task {
+    width: 100%;
+    height: 450px;
+    padding: 20px;
+    overflow: auto;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.row {
+    width: 100px;
+    height: 55px;
+    color: white;
+    background-color: chartreuse;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.row2 {
+    width: 100px;
+    height: 55px;
+    color: white;
+    background-color: yellow;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.row3 {
+    width: 100px;
+    height: 55px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.row4 {
+    width: 100px;
+    height: 55px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fa-circle-check {
+    color: white;
+}
+
+.card {
+    width: 100%;
+    height: 140px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    animation: bounce 1s 1 linear;
+    color: chartreuse;
+    transition: 1s;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.text {
+    text-decoration: line-through;
+    color: red;
+    border-radius: 5px;
+    background-color: cadetblue;
+}
+
+.search_input {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-top: 10px;
+}
+
+.qidirish {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: cadetblue;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: scale(0);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(0.8);
+    }
+
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(0.9);
+    }
+
+    80% {
+        transform: scale(1);
+    }
+}
+
+.btn_ota {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.delete {
+    width: 140px;
+    height: 55px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 18px;
+    margin-left: 15px;
+    font-weight: 500;
+    margin-top: 35px;
+}
